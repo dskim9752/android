@@ -15,9 +15,9 @@
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
-           sync-j="32" />
+           sync-j="8" />
 
-  <project path="build" name="dskim9752/android_build" groups="pdk" >
+  <project path="build" name="Dokdo-Project-CM/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -271,7 +271,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="Dokdo-Project-CM/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="dskim9752/android_frameworks_base" remote="github" revision="refs/heads/cat"/>
+  <project path="frameworks/base" name="Dokdo-Project-CM/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -466,5 +466,4 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-  <project path="vendor/samsung" name="Dokdo-Project-CM/android_vendor_samsung" />
 </manifest>
